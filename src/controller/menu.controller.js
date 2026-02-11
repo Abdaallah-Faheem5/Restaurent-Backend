@@ -301,7 +301,7 @@ class MenuController {
                 });
             }
 
-            let imageUrl = 'https://imgs.search.brave.com/1b9-woh6-zSQXo-6kX17bRhjxn38_QrCu1bDYwJhdgs/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNDEv/OTI2LzMxMy9zbWFs/bC9haS1nZW5lcmF0/ZWQtYS1jbG9zZS11/cC1vZi1hLWRlbGlj/aW91cy1zdGVhbXkt/Y2hpY2tlbi1zaGF3/YXJtYS13cmFwLXdp/dGgtZnJlc2gtdmVn/ZXRhYmxlcy1hbmQt/c3BpY2VzLWZyZWUt/cGhvdG8uanBlZw';
+            let imageUrl = '';
 
             const providedImage = providedImageUrl || image;
 
