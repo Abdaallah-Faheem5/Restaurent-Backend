@@ -38,10 +38,13 @@ const connectDB = async () => {
 }
 // CreatTable();
 connectDB();
-
+app.get('/api/live', (req, res) => {
+  res.send('Server is live');
+});
 app.listen(port, () => {
       console.log(`Server running on http://localhost:${port}`);
     });
+
 
 
 
